@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SingleChoiceDialog</string>
+    
+    <string-array name="country_name">
+        <item>India</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>San Francisco</item>
+        <item>London</item>
+
+    </string-array>
+</resources>

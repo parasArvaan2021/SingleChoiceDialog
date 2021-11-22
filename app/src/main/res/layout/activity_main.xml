@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_showdialog"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Single Choice Dialog"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/teal_700"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_above="@id/txt_show_multi_choice_dialog"/>
+    <TextView
+        android:id="@+id/txt_show_multi_choice_dialog"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Multi Choice Dialog"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/teal_700"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/txt_show_simple_dialog"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="simple Dialog"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/teal_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt_show_multi_choice_dialog"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/txt_show_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_show_simple_dialog"
+        android:hint="selected item show"/>
+
+</RelativeLayout>
